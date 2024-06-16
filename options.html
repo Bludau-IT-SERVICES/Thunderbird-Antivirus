@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thundy AV Checker Einstellungen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 1.2em;
+            margin: 10px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+
+        .head_line {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Thundy AV Einstellungen</h1>
+    <h3>Was ist Hybrid-Analysis.com?</h3>
+    Hybrid-Analysis.com ist ein kostenloser Malware-Analyse-Service für die Community. Mit diesem Service können Sie
+    Dateien zur detaillierten statischen und dynamischen Analyse einreichen.<br />
+    <br />
+    Die Webseite verwendet eine einzigartige Hybrid-Analyse-Technologie, um unbekannte Bedrohungen zu erkennen und
+    zu analysieren. Sie wird von der Falcon Sandbox von CrowdStrike angetrieben.<br />
+    <br />
+    Die Falcon Sandbox ist ein hochmodernes Malware-Analyse-Framework mit einer sehr agilen Architektur. Sie wird
+    derzeit von SOCs, CERTs, DFIR-Teams, IT-Sicherheitsforensiklabors, Forschern und Anbietern von Bedrohungsdaten
+    auf der ganzen Welt genutzt.<br />
+    <h3>Installationshinweise zum API Schlüssel</h3>
+    Sie benötigen einen kostenlosen API Schlüssel von <a
+        href="https://www.hybrid-analysis.com/">hybrid-analysis.com</a><br />
+    Nach der Anmeldung finden Sie diesen API Schlüssel unter "Nickname" -> "Profil" -> "API KEY".<br />
+    Diesen API Schlüssel hier einfügen.<br />
+  
+    <label>
+        API Schlüssel:
+        <input type="text" id="apikey">
+    </label>
+    <strong>Bitte nicht vergessen zu speichern und Thunderbird einmal neuzustarten.</strong>
+    <button id="save">Speichern</button>
+    <script src="options.js"></script>
+</body>
+
+</html>
