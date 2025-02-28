@@ -1,38 +1,37 @@
-Oh, and what I forgot is that you have to register an account on Hybrid-Analysis.com to get an API key. You can enter this API key in the extension settings so that the extension works.
+# Manuelle Installation einer heruntergeladenen Thunderbird-Erweiterung
 
+## 1. Thunderbird Add-on-Manager aufrufen
 
-Here's how to install a manually downloaded Thunderbird extension:
+- **Thunderbird öffnen**: Starte deine Thunderbird-Anwendung.  
+- **Anwendungsmenü öffnen**: Klicke auf das Menü-Symbol (drei horizontale Linien) in der oberen rechten Ecke.  
+- **"Add-ons und Themes" auswählen**: Wähle diese Option im erscheinenden Menü aus.  
 
-**1. Access Thunderbird's Add-on Manager:**
+## 2. Installation vorbereiten
 
-   * **Open Thunderbird:** Launch your Thunderbird application.
-   * **Click the Application menu:** This is usually represented by three horizontal lines in the top-right corner.
-   * **Navigate to Add-ons and Themes:**  You'll find this option in the menu that appears.
+- **Auf das Zahnrad-/Einstellungen-Symbol klicken**: Dies befindet sich oben rechts im Add-on-Manager-Tab.  
+- **"Add-on aus Datei installieren..." wählen**: Ein Dateibrowser-Fenster öffnet sich.  
 
-**2. Prepare for Installation:**
+## 3. Die Erweiterung auswählen und installieren
 
-   * **Click the Gear/Settings icon:**  This is located in the top-right corner of the Add-ons Manager tab. 
-   * **Select "Install Add-on From File..."**  A file browser window will open.
+- **Die `*.xpi`-Datei finden**: Navigiere zu dem Speicherort, an dem du die Erweiterungsdatei gespeichert hast.  
+- **Datei auswählen**: Klicke auf die `*.xpi`-Datei, um sie auszuwählen.  
+- **Auf "Öffnen" klicken**: Dadurch wird der Installationsprozess gestartet.  
 
-**3. Locate and Select the Extension:**
+## 4. Installation bestätigen
 
-   * **Find the *.xpi file:** Navigate to the location where you saved the downloaded extension file.
-   * **Select the file:** Click on the *.xpi file to select it.
-   * **Click "Open":** This will start the installation process.
+- **Berechtigungen überprüfen**: Thunderbird zeigt die benötigten Berechtigungen der Erweiterung an. Prüfe diese sorgfältig.  
+- **Auf "Hinzufügen" (oder "Installieren") klicken**: Bestätige die Installation mit dem entsprechenden Button.  
 
-**4. Confirm Installation:**
+## 5. Thunderbird neu starten
 
-   * **Review Permissions:** Thunderbird will display the permissions the extension requires. Carefully review these before proceeding.
-   * **Click "Add" (or "Install"):**  Authorize the installation by clicking the appropriate button.
+- **Neustart erforderlich**: Thunderbird fordert dich möglicherweise auf, das Programm neu zu starten.  
+- **Auf "Jetzt neu starten" klicken oder manuell neu starten**: Dadurch werden die Änderungen übernommen.  
 
-**5. Restart Thunderbird:**
+## Fehlerbehebung
 
-   * **Restart Required:** You will likely be prompted to restart Thunderbird for the changes to take effect. 
-   * **Click "Restart Now" (or manually restart):**  This will apply the installation.
+- **Kompatibilität prüfen**: Stelle sicher, dass die Erweiterung mit deiner Thunderbird-Version kompatibel ist. Die Informationen dazu findest du in der Beschreibung der Erweiterung oder auf der entsprechenden Website.  
+- **Dateibeschädigung ausschließen**: Falls Fehler auftreten, lade die `*.xpi`-Datei erneut herunter, um eine beschädigte Datei auszuschließen.  
 
-**Troubleshooting:**
+---
 
-* **Compatibility:**  Ensure the extension you downloaded is compatible with your version of Thunderbird. Check the extension's description or website for compatibility information.
-* **File Corruption:** If you encounter errors, try downloading the *.xpi file again in case the download was corrupted.
-
-Let me know if you have any other questions! 
+Falls du noch Fragen hast, lass es mich wissen!
